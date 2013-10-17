@@ -12,9 +12,6 @@ ss.on('connection', function (socket) {
 
   var time = Math.floor(Math.random() * 2000) + 1000;
   socket.join('room' + roomNo);
-  socket.join('room' + roomNo);
-  socket.join('room' + roomNo);
-  socket.join('room' + roomNo);
 
   setInterval(function () {
     ss.in('room' + roomNo).emit('hello', 'room' + roomNo);

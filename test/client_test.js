@@ -1,6 +1,6 @@
 var WebSocket = require('ws');
 
-for (var i = 0; i < 1; i++) {
+for (var i = 0; i < 2000; i++) {
 
   var time = Math.floor(Math.random() * 2000) + 1000;
 
